@@ -17,11 +17,11 @@ class CleaningServiceTest {
         service.add(new Office("Bp. Fo ut 4.", 300, 4));
     }
 
-//    @Test
-//    void getCleanables() {
-//        assertEquals(4, service.getCleanables().size());
-//    }
-//
+    @Test
+    void getCleanables() {
+        assertEquals(4, service.getCleanables().size());
+    }
+
     @Test
     void cleanAll() {
         int result = service.cleanAll();
